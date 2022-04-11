@@ -1,8 +1,12 @@
 ## ! INFORMATIONS IMPORTANTES !
 
-Pour pouvoir accéder au Pokédex : mettre en commentaire import HelloWorld from './components/HelloWorld_three.vue' (ligne 9) dans le fichier App.vue puis run
+Pour pouvoir accéder au Pokédex : 
+1. Dans le fichier App.vue, mettre en commentaire la ligne 9 : "import HelloWorld from './components/HelloWorld_three.vue" (déjà le cas initialement)
+2. Run (npm install > npm run serve > npm run build)
 
-Pour pouvoir accéder au Three.js : mettre en commentaire import HelloWorld from './components/HelloWorld.vue' (ligne 8) dans le fichier App.vue puis run
+Pour pouvoir accéder au Three.js : 
+1. Dans le fichier App.vue, mettre en commentaire "import HelloWorld from './components/HelloWorld.vue'" (ligne 8)  
+2. Run (npm install > npm run serve > npm run build)
 
 ## Project setup
 ```
